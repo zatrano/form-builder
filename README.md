@@ -193,6 +193,3 @@ Katkılarınız projeyi daha da iyi hale getirir! Lütfen bir "issue" açın vey
 ## 📄 Lisans
 
 Bu proje MIT Lisansı altında dağıtılmaktadır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
-
----
-zatrano kısımlarını kendi GitHub kullanıcı adınızla değiştirmeyi unutmayın.
