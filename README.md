@@ -7,11 +7,11 @@
 <p align="center">
   A flexible, secure, and component-friendly form management package for Go, featuring built-in CSRF protection and powerful validation.
   <br>
-  <a href="https://pkg.go.dev/github.com/[YOUR_USERNAME]/go-form"><strong>GoDoc</strong></a>
+  <a href="https://pkg.go.dev/github.com/zatrano/go-form"><strong>GoDoc</strong></a>
   ·
-  <a href="https://github.com/[YOUR_USERNAME]/go-form/issues">Report Bug</a>
+  <a href="https://github.com/zatrano/go-form/issues">Report Bug</a>
   ·
-  <a href="https://github.com/[YOUR_USERNAME]/go-form/issues">Request Feature</a>
+  <a href="https://github.com/zatrano/go-form/issues">Request Feature</a>
 </p>
 
 ---
@@ -30,7 +30,7 @@
 ## 🚀 Kurulum
 
 ```bash
-go get github.com/[YOUR_USERNAME]/go-form
+go get github.com/zatrano/go-form
 ```
 
 ## 📋 Hızlı Başlangıç (Fiber ile)
@@ -59,7 +59,7 @@ Template motorunuzu başlatırken, `go-form`'un yardımcı fonksiyonlarını ekl
 ```go
 // internal/zatrano/view/engine.go
 import (
-    formhelper "github.com/[YOUR_USERNAME]/go-form"
+    formhelper "github.com/zatrano/go-form"
     "github.com/gofiber/template/html"
 )
 
@@ -84,8 +84,8 @@ Handler'larınızda GET istekleri için boş bir form oluşturun ve POST istekle
 import (
     "github.com/gofiber/fiber/v2"
     "github.com/gofiber/fiber/v2/middleware/session"
-    form "github.com/[YOUR_USERNAME]/go-form"
-    "github.com/[YOUR_USERNAME]/go-form/adapter"
+    form "github.com/zatrano/go-form"
+    "github.com/zatrano/go-form/adapter"
 )
 
 // ShowRegisterForm, kayıt formunu gösterir (GET)
@@ -184,7 +184,7 @@ func (s *MyCustomStorage) Delete(sessionID string) {
 
 Katkılarınız projeyi daha da iyi hale getirir! Lütfen bir "issue" açın veya "pull request" gönderin.
 
-1.  Projeyi Fork'layın (`https://github.com/[YOUR_USERNAME]/go-form/fork`)
+1.  Projeyi Fork'layın (`https://github.com/zatrano/go-form/fork`)
 2.  Yeni bir Feature Branch'i oluşturun (`git checkout -b feature/AmazingFeature`)
 3.  Değişikliklerinizi Commit'leyin (`git commit -m 'Add some AmazingFeature'`)
 4.  Branch'i Push'layın (`git push origin feature/AmazingFeature`)
@@ -195,4 +195,4 @@ Katkılarınız projeyi daha da iyi hale getirir! Lütfen bir "issue" açın vey
 Bu proje MIT Lisansı altında dağıtılmaktadır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
 
 ---
-[YOUR_USERNAME] kısımlarını kendi GitHub kullanıcı adınızla değiştirmeyi unutmayın.
+zatrano kısımlarını kendi GitHub kullanıcı adınızla değiştirmeyi unutmayın.
